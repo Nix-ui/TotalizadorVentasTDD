@@ -228,12 +228,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "539a8e7b27f18ca4462b8887cccad1389613c200",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-09-04T14:18:09.000Z",
       "message": "feat: Obtener el descuento de total mayor a 1000",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/539a8e7b27f18ca4462b8887cccad1389613c200"
     },
     "stats": {
       "total": 5,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-09-04T14:21:45.000Z",
+      "message": "feat: calculo de descuento de total mayor igual a 3000",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 5,
+      "deletions": 2,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
