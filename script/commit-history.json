@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0f5f5b1d64936b887cab1884862f22f52280dc08",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-09-04T13:50:47.000Z",
       "message": "feat:Obtener el impuesto de Nevada",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/0f5f5b1d64936b887cab1884862f22f52280dc08"
     },
     "stats": {
       "total": 36,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-09-04T13:56:32.000Z",
+      "message": "feat: Mostrar el total con la tasa de impuestos aplicada para los estados anteriores y texas",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 17,
+      "deletions": 4,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

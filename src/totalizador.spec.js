@@ -18,4 +18,7 @@ describe("Funcion de ingresar la cantidad del producto", () => {
     it("deberia mostrar el impuesto de Nevada",()=>{
         expect(obtenerTazaImpuesto("NV")).toEqual(0.08);
     });
+    it("deberia mostrar el impuesto de Texas",()=>{
+        expect(obtenerTazaImpuesto("TX")).toEqual(0.0625);
+    });
 }); 
