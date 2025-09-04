@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "082951acfbcb1462deb078eea31103d20e82d590",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-09-04T13:56:32.000Z",
       "message": "feat: Mostrar el total con la tasa de impuestos aplicada para los estados anteriores y texas",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/082951acfbcb1462deb078eea31103d20e82d590"
     },
     "stats": {
       "total": 21,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-09-04T13:58:29.000Z",
+      "message": "feat: obtener el impuesto de Alabama",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
