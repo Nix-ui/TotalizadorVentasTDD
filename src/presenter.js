@@ -13,5 +13,5 @@ form.addEventListener("submit", (event) => {
   const priceUnit = `Precio Unitario: ${price.value}`;
   const  impuesto = `Impuesto: ${obtenerTazaImpuesto(state.value)}`;
   let total = `Total: ${calcTotal(items.value, price.value) + (calcTotal(items.value, price.value) * obtenerTazaImpuesto(state.value))}`;
-  div.innerHTML = "<h3>" + numberItems+ "<br>" + priceUnit+ ""<br>"" + impuesto + "<br>" + total +"</h3>";
+  div.innerHTML = "<h3>" + numberItems+ "<br>" + priceUnit+ "<br>" + impuesto + "<br>" + total +"</h3>";
 });

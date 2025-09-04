@@ -171,16 +171,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2e4c2a053f2d196f4d6ef57c6d2d54c1cb7821e3",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-09-04T13:58:29.000Z",
       "message": "feat: obtener el impuesto de Alabama",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/2e4c2a053f2d196f4d6ef57c6d2d54c1cb7821e3"
     },
     "stats": {
       "total": 5,
       "additions": 4,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-09-04T14:03:28.000Z",
+      "message": "fix: br in presenter",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
       "deletions": 1,
       "date": "2025-09-04"
     },
