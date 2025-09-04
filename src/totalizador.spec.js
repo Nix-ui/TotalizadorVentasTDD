@@ -4,4 +4,7 @@ describe("Funcion de ingresar la cantidad del producto", () => {
 it ("deberia mostrar la cantidad de prodcutos ingresados", () =>{
     expect(calcTotal(20, 5)).toEqual(100); 
     }); 
+it ("deberia mostrar la cantidad de prodcutos ingresados", () =>{
+    expect(calcTotal(10, 4)).toEqual(40); 
+    }); 
 }); 
