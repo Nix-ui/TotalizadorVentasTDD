@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "95b8238db73bbf1391d01d446818552242b637ef",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-09-04T13:09:16.000Z",
       "message": "doc: plan de pruebas inicial",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/95b8238db73bbf1391d01d446818552242b637ef"
     },
     "stats": {
       "total": 56,
       "additions": 56,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-09-04T13:17:45.000Z",
+      "message": "doc: Agrgado de un plan mas especifico",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
       "date": "2025-09-04"
     },
     "coverage": 100,

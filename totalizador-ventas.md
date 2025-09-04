@@ -50,6 +50,14 @@
   * $f(x,y,AL) \Longrightarrow 4.00(xy)$
 * Deberia calcular y mostrar el descuento del precio neto
   * $f(0>= x >100) \Longrightarrow  0\%$
-  * $500 \longrightarrow  500-0$
+    * $500 \longrightarrow  500-0$
   * $f(x>=1000) \Longrightarrow  3\%(x)$
-  * $(1000 \longrightarrow 1000 -(3\%*1000))$
+    * $(1000 \longrightarrow 1000 -(3\%*1000))$
+  * $f(x>=3000) \Longrightarrow  5\%(x)$
+    * $(3000 \longrightarrow 3000 -(5\%*3000))$
+  * $f(x>=7000) \Longrightarrow  7\%(x)$
+    * $(7000 \longrightarrow 7000 -(7\%*7000))$
+  * $f(x>=10000) \Longrightarrow  10\%(x)$
+    * $(10000 \longrightarrow 10000 -(10\%*10000))$
+  * $f(x>=30000) \Longrightarrow  15\%(x)$
+    * $(30000 \longrightarrow 30000 -(15\%*30000))$
