@@ -1,4 +1,4 @@
-function calcTotal(cantidad , precioUnitario){
+function calcularPrecioNeto(cantidad , precioUnitario){
     return cantidad * precioUnitario; 
 }
 function obtenerTazaImpuesto ( estado){
@@ -8,4 +8,4 @@ function calcularDescuento ( total){
     return total >= 7000? 0.07 : total >= 3000? 0.05 : total >=  1000 ? 0.03 : 0 ;
 }
 
-export  {calcTotal, obtenerTazaImpuesto, calcularDescuento}; 
+export  {calcularPrecioNeto, obtenerTazaImpuesto, calcularDescuento}; 

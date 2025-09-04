@@ -1,4 +1,4 @@
-import { calcTotal, obtenerTazaImpuesto } from "./totalizador.js";
+import { calcTotal, obtenerTazaImpuesto,calcularPrecioNeto } from "./totalizador.js";
 
 const items = document.querySelector("#numero-items");
 const price = document.querySelector("#precio-unitario");
@@ -12,6 +12,6 @@ form.addEventListener("submit", (event) => {
   const numberItems = ` Cantidad de items: ${items.value}`;
   const priceUnit = `Precio Unitario: ${price.value}`;
   const  impuesto = `Impuesto: ${obtenerTazaImpuesto(state.value)}`;
-  let total = `Total: ${calcTotal(items.value, price.value) + (calcTotal(items.value, price.value) * obtenerTazaImpuesto(state.value))}`;
+  let total = `Total: ${calcularPrecioNeto(items.value, price.value) + (calcularPrecioNeto(items.value, price.value) * obtenerTazaImpuesto(state.value))}`;
   div.innerHTML = "<h3>" + numberItems+ "<br>" + priceUnit+ "<br>" + impuesto + "<br>" + total +"</h3>";
 });
