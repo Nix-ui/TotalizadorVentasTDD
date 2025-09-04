@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c075fd77257df373523b7a46c994b90954188719",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-04T13:46:12.000Z",
       "message": "feat: Muestra el impuesto del estado de Utah",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/c075fd77257df373523b7a46c994b90954188719"
     },
     "stats": {
       "total": 6,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-09-04T13:50:47.000Z",
+      "message": "feat:Obtener el impuesto de Nevada",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 19,
+      "deletions": 17,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
