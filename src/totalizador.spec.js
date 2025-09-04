@@ -27,4 +27,7 @@ describe("Funcion de ingresar la cantidad del producto", () => {
     it("deberia calcular el descuento para totales menores de 1000",()=>{
         expect(calcularDescuento(800)).toEqual(0);
     });
+    it("deberia calcular el descuento para totales mayores de 1000",()=>{
+        expect(calcularDescuento(1800)).toEqual(0.03);
+    });
 }); 
