@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "45257126cc18e599f480613df32e1126fa999bd7",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-09-04T13:30:55.000Z",
       "message": "feat: Agragadoi y muestreo de datos ingresados",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/45257126cc18e599f480613df32e1126fa999bd7"
     },
     "stats": {
       "total": 30,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-04T13:37:30.000Z",
+      "message": "feat: Calculo total del precio de un numero de items añadido",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
