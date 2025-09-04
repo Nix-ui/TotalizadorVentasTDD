@@ -1,4 +1,4 @@
-import calcTotal from "./totalizador"; 
+import {calcTotal, obtenerTazaImpuesto} from "./totalizador"; 
 
 describe("Funcion de ingresar la cantidad del producto", () => {
 it ("deberia mostrar la cantidad de prodcutos ingresados", () =>{
@@ -6,5 +6,9 @@ it ("deberia mostrar la cantidad de prodcutos ingresados", () =>{
     }); 
 it ("deberia mostrar la cantidad de prodcutos ingresados", () =>{
     expect(calcTotal(10, 4)).toEqual(40); 
+    }); 
+
+it ("deberia mostrar el impuesto de california", () =>{
+    expect(obtenerTazaImpuesto("CA")).toEqual(0.0825); 
     }); 
 }); 
