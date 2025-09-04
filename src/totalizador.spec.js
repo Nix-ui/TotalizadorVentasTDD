@@ -1,4 +1,4 @@
-import {calcTotal, obtenerTazaImpuesto} from "./totalizador"; 
+import {calcTotal, obtenerTazaImpuesto, calcularDescuento} from "./totalizador"; 
 
 describe("Funcion de ingresar la cantidad del producto", () => {
     it ("deberia mostrar la cantidad de prodcutos ingresados", () =>{
@@ -23,5 +23,8 @@ describe("Funcion de ingresar la cantidad del producto", () => {
     });
     it("deberia mostrar el impuesto de Alabama",()=>{
         expect(obtenerTazaImpuesto("AL")).toEqual(0.04);
+    });
+    it("deberia calcular el descuento para totales menores de 1000",()=>{
+        expect(calcularDescuento(800)).toEqual(0);
     });
 }); 
