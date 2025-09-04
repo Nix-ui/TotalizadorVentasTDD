@@ -4,6 +4,6 @@ function calcTotal(cantidad , precioUnitario)
 }
 function obtenerTazaImpuesto ( estado)
 {
-    return 0.0825; 
+    return estado === "CA"? 0.0825 : 0.0665; 
 }
 export  {calcTotal, obtenerTazaImpuesto}; 

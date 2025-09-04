@@ -11,4 +11,8 @@ it ("deberia mostrar la cantidad de prodcutos ingresados", () =>{
 it ("deberia mostrar el impuesto de california", () =>{
     expect(obtenerTazaImpuesto("CA")).toEqual(0.0825); 
     }); 
+
+it ("deberia mostrar el impuesto de utah", () =>{
+    expect(obtenerTazaImpuesto("UT")).toEqual(0.0665); 
+    }); 
 }); 

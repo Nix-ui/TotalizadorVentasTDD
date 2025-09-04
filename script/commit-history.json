@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cc20865d77f08edd22452bb1b6a2da87887bba29",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-04T13:43:36.000Z",
       "message": "feat: Se obtiene la taza de impuesto de california",
-      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/cc20865d77f08edd22452bb1b6a2da87887bba29"
     },
     "stats": {
       "total": 12,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-04T13:46:12.000Z",
+      "message": "feat: Muestra el impuesto del estado de Utah",
+      "url": "https://github.com/Nix-ui/TotalizadorVentasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
